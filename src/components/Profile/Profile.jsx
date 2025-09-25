@@ -5,8 +5,8 @@ import { useQuery } from '@tanstack/react-query';
 import { Button, Modal, ModalBody, ModalFooter, ModalHeader } from "flowbite-react";
 import { useState } from "react";
 import UserPosts from '../userPosts/userPosts';
-import ChangePassword from '../changePassword/changePassword';
 import Uploudprofilephoto from '../Uploudprofilephoto/Uploudprofilephoto';
+import ChangePassword from '../ChangePassword/ChangePassword';
 
 
 
