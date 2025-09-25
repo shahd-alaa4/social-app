@@ -1,5 +1,3 @@
-import React from 'react'
-import style from "./ChangePassword.module.css"
 import { Button, Label, Modal, ModalBody, ModalHeader, TextInput } from "flowbite-react";
 import { useState } from "react";
 import z from 'zod';

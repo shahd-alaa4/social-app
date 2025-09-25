@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import style from "./UpdateComment.module.css"
+import { useState } from 'react'
 import { Button, Label, Modal, ModalBody, ModalHeader, TextInput } from 'flowbite-react';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';

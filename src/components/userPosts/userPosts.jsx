@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import style from "./UserPosts.module.css"
+import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import CreateComment from '../createComment/createComment';

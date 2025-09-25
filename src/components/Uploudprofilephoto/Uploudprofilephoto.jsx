@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button, Modal, ModalBody, ModalHeader } from "flowbite-react";
 import { useForm } from 'react-hook-form';
 import axios from 'axios';

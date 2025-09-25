@@ -1,5 +1,3 @@
-import React from 'react'
-import style from "./PostDetails.module.css"
 import { useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import Comment from './../comment/comment';

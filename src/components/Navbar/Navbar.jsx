@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import style from "./Navbar.module.css";
+import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { userContext } from "../../context/UserContext";
 import { DarkThemeToggle } from "flowbite-react";

@@ -1,5 +1,3 @@
-import React from 'react'
-import style from "./DeleteComment.module.css"
 import { useQueryClient } from '@tanstack/react-query';
 import axios from 'axios';
 import toast from 'react-hot-toast';

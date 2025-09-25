@@ -1,5 +1,3 @@
-import React from 'react'
-import style from "./DeletePost.module.css"
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useQueryClient } from '@tanstack/react-query';

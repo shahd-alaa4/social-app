@@ -1,5 +1,3 @@
-import React from 'react'
-import style from "./Comment.module.css"
 import UpdateComment from '../UpdateComment/UpdateComment'
 import DeleteComment from '../DeleteComment/DeleteComment'
 

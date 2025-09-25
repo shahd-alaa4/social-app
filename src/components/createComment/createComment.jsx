@@ -1,5 +1,3 @@
-import React from 'react'
-import style from "./CreateComment.module.css"
 import { useForm } from 'react-hook-form'
 import axios from 'axios';
 import { Button, Label, TextInput } from "flowbite-react";

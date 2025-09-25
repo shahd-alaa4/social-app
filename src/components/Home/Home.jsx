@@ -1,11 +1,7 @@
-import React, { useContext, useEffect, useState } from "react";
-import style from "./Home.module.css";
-import { PostContext } from "./../../context/PostContext";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import Comment from "../comment/comment";
-import { data, Link } from "react-router-dom";
-import PostDetails from './../postDetails/postDetails';
+import { Link } from "react-router-dom";
 import CreateComment from "../createComment/createComment";
 import CreatePost from "../CreatePost/CreatePost";
 

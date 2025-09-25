@@ -1,5 +1,3 @@
-import React from 'react'
-import style from "./Profile.module.css"
 import axios from 'axios';
 import { useQuery } from '@tanstack/react-query';
 import { Button, Modal, ModalBody, ModalFooter, ModalHeader } from "flowbite-react";

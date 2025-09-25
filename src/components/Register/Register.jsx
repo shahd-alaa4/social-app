@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import style from "./Register.module.css";
+import  { useState } from "react";
+
 import signup from "../../assets/Sign up-pana.png";
 import { useForm } from "react-hook-form";
-import z, { email, object } from "zod";
+import z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
