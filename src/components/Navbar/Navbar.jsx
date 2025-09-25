@@ -59,7 +59,7 @@ export default function Navbar() {
 
 <div className="dark:text-white  flex items-center gap-2">
       <p className="">  dark mode  </p>
-        <DarkThemeToggle  className="dark:bg-gray-800 dark:hover:bg-gray-700 bg-gray-700 hover:bg-gray-500   p-1  border-8 dark:border-0 "/>
+        <DarkThemeToggle  className="dark:bg-gray-800 dark:hover:bg-gray-700 bg-gray-700 hover:bg-gray-500   p-1"/>
 
 </div>
           {userLogin !== null ? (

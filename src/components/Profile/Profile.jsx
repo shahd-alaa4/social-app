@@ -14,6 +14,7 @@ export default function Profile() {
     const [openModal, setOpenModal] = useState(false);
 
     function getUserData() {
+      
     return axios.get("https://linked-posts.routemisr.com/users/profile-data", {
       headers: {
         token: localStorage.getItem("userToken"),
@@ -21,7 +22,7 @@ export default function Profile() {
     });
   }
   let {data,isLoading,error,isError} = useQuery({
-    queryKey: ["userPosts"],
+    queryKey: ["userProfile"],
     queryFn: getUserData,
     select:(data)=>data?.data?.user
   });
