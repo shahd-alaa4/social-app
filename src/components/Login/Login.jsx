@@ -37,7 +37,7 @@ export default function Login() {
     setisLoading(true);
 
     axios
-      .post("https:linked-posts.routemisr.com/users/signin", values)
+      .post("https://linked-posts.routemisr.com/users/signin", values)
       .then((res) => {
         if (res.data.message === "success") {
           localStorage.setItem("userToken", res.data.token);
